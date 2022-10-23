@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.example.py7.crudkotlin;
+package com.example.NotesApp;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
