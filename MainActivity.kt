@@ -18,8 +18,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity() {
-
+//dibagian ini ialah class mainactivity
     private var listBarang = ArrayList<Barang>()
+    //listbarang dimana saat memasukkan barang maka akan ditampilkan langsung dan masuk kedalam database yang telah disediakan.
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,6 +51,7 @@ class MainActivity : AppCompatActivity() {
                 val nama = cursor.getString(cursor.getColumnIndex("Nama"))
                 val jenis = cursor.getString(cursor.getColumnIndex("Jenis"))
                 val harga = cursor.getString(cursor.getColumnIndex("Harga"))
+                //koneksi table pada database
 
                 listBarang.add(Barang(id, nama, jenis, harga))
             }while (cursor.moveToNext())
