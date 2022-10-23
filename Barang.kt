@@ -1,4 +1,4 @@
-package com.example.py7.crudkotlin
+package com.example.NotesApp
 
 class Barang {
 
