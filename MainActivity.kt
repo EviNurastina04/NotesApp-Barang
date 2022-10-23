@@ -1,4 +1,4 @@
-package com.example.py7.crudkotlin
+package com.example.NotesApp
 
 import android.content.Context
 import android.content.Intent
