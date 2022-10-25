@@ -20,7 +20,7 @@ class DBAdapter {
             dbTable + " (" + colId + " " + "INTEGER PRIMARY KEY," + colName + " TEXT, " +
             colJenis + " TEXT, " + colHarga + " TEXT);"
     private var db: SQLiteDatabase? = null
-
+//db SQLiteDatabase berfungsi untuk menambilkan dan mengubungkan data ke database ataupun ke inspector
     constructor(context: Context){
         var dbHelper = DatabaseHelper(context)
         db = dbHelper.writableDatabase
