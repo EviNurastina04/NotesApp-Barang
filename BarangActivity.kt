@@ -9,7 +9,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_barang.*
-
+//Merupakan kode pada live data
 class BarangActivity : AppCompatActivity() {
 
     var id=0
