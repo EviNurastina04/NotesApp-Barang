@@ -8,6 +8,7 @@
             android:orderInCategory="100"
             app:showAsAction="always"/>
     <item
+          //berikut kode fragment yang ada pada aplikasi berfungsi untuk menghubungkan menu satu ke menu yang lainnya
             android:id="@+id/action_delete"
             android:title="DELETE"
             android:orderInCategory="200"
