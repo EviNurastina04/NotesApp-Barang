@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
 class DBAdapter {
-
+//Merupakan ClasssDBadapter digunakan untuk class Adapter
     private val dbName = "dbBarang"
     private val dbTable = "Barang"
     private val colId = "Id"
